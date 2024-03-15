@@ -1,0 +1,7 @@
+spring:
+  rabbitmq:
+    host: 8.130.15.99 # rabbitMQ的ip地址
+    port: 5672 # 端口
+    username: itcast
+    password: 123321
+    virtual-host: /

@@ -1,0 +1,14 @@
+logging:
+    config: classpath:logback.xml
+xxl:
+    job:
+        accessToken: ''
+        admin:
+            addresses: http://8.130.15.99:8093/xxl-job-admin
+        executor:
+            address: ''
+            appname: itheima-stock-executor
+            ip: ''
+            logpath: ./logs
+            logretentiondays: 30
+            port: 7979
